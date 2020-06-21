@@ -1,0 +1,11 @@
+{
+  "name": "be.selimgrote.selimtoolbox",
+  "displayName": "Selim Toolbox",
+  "version": "0.0.1",
+  "unity": "2018.1",
+  "description": "You package description",
+  "keywords": ["Script","Tool"],
+  "category": "Script",
+  "dependencies":
+  { "be.nihiilus.anthonyroom":"0.0.1"}
+}
