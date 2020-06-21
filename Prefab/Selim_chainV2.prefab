@@ -2954,6 +2954,7 @@ GameObject:
   - component: {fileID: 8086941945209020171}
   - component: {fileID: 8086941945209020170}
   - component: {fileID: 8086941945209020173}
+  - component: {fileID: 1216957564}
   m_Layer: 0
   m_Name: m_anthony_chain_bracelet
   m_TagString: Untagged
@@ -3087,3 +3088,44 @@ HingeJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &1216957564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8086941945209020168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75e9c0dfd26c814185ae4aa016c52b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_affected: {fileID: 8086941945209020171}
+  m_forceRatio: 150
+  m_maxDistance: 1.5
+  m_forceByDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0012016296
+      value: 1.0037231
+      inSlope: -2.9021325
+      outSlope: -2.9021325
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.030012008
+    - serializedVersion: 3
+      time: 0.9938678
+      value: 0.035790835
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 0
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_target: {fileID: 0}
+  m_forceMode: 0
